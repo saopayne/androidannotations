@@ -13,7 +13,7 @@ public class MyListener {
 	Context context;
 
 	public void doSomethingOnResume(@Observes OnResumeEvent onResume) {
-		Toast.makeText(context, "Activity has been resumed", Toast.LENGTH_LONG).show();
+		Toast.makeText(context, "Activity has been resumed", Toast.LENGTH_SHORT).show();
 	}
 
 }
